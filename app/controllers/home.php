@@ -8,8 +8,8 @@ class Home extends Controller{
     }
 
     function index(){
-
-        echo "<h1>index of home</h1>";
+$this->view("index");
+        // echo "<h1>index of home</h1>";
 
     }
     function library(){
